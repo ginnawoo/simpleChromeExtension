@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
       active: true,
       lastFocusedWindow: true
     }, function (tabs) {
-      alert("Hello..! It's my first chrome extension.");
+      alert("Misinformation Level: 1");
     });
   },
     false)
