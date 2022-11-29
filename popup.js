@@ -6,13 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
       active: true,
       lastFocusedWindow: true
     }, function (tabs) {
-      alert("Misinformation Level: 1");
+      var site = location.hostname,
+        title = document.title;
+      alert("Misinformation Level: 1" + "Site: " + site + " - Title: " + title);
+
     });
   },
     false)
 });
 
-chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
-  console.log(tabs[0].url);
-  console.log(tabs[0].title);
-});
