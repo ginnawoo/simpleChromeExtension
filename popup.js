@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var url = tabs[0].url;     //url
       var title = tabs[0].title;   //title
       alert("Misinformation Level: 1" +
-        " | Title: " + title +
+        toUnicodeVariant('underlined', 'bold sans', "  Title: ") + title +
         " | URL: " + url);
 
     });
