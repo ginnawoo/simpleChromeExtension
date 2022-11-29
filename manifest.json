@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Click It",
+    "name": "MisInformation Extension",
     "description": "My first Chrome extension.",
     "version": "1.0",
-    "author": "Emad Elmogy",
+    "author": "Team ML",
     "action": {
         "default_icon": "FakeNews.png",
         "default_popup": "popup.html",
