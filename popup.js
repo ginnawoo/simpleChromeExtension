@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
       active: true,
       lastFocusedWindow: true
     }, function (tabs) {
-      var site = tabs.title,
-        url = tabs.url;
+      var site = tabs.title;
+      var url = tabs.url;
       alert("Misinformation Level: 1" + " - Title: " + site + " - URL: " + url);
 
     });
