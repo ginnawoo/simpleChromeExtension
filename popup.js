@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, function (tabs) {
       var url = tabs[0].url;     //url
       var site = tabs[0].title;   //title
-      alert("Misinformation Level: 1" + " - Title: " + site + " - URL: " + url);
+      alert("Misinformation Level: 1" + " | Title: " + site + " | URL: " + url);
 
     });
   },
