@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
       lastFocusedWindow: true
     }, function (tabs) {
       var url = tabs[0].url;     //url
-      var site = tabs[0].title;   //title
-      alert("Misinformation Level: 1" + " | Title: " + site + " | URL: " + url);
+      var title = tabs[0].title;   //title
+      alert("Misinformation Level: 1" +
+        " | Title: " + title +
+        " | URL: " + url);
 
     });
   },
