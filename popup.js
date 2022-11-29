@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var checkPageButton = document.getElementById('clickIt');
   checkPageButton.addEventListener('click', function () {
 
-    chrome.tabs.query({
+    chrome.tabs.getCurrent({
       active: true,
       lastFocusedWindow: true
     }, function (tabs) {
