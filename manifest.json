@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "MisInformation Extension",
+    "name": "DisInformation Extension",
     "description": "This is a Chrome extension built to help identify misinformation.",
     "version": "1.0",
     "author": "Team ML",
     "action": {
         "default_icon": "FakeNews.png",
         "default_popup": "popup.html",
-        "default_title": "My custom google Extension"
+        "default_title": "custom chrome extension for identify disinformation"
     },
     "permissions": [
         "activeTab"
